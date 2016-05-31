@@ -4,3 +4,15 @@ html{
 	background-repeat: no-repeat;
 
 }
+
+.title{
+	background-color: red;
+	text-align: center;
+	margin-top: 50%;
+	margin-bottom: 50%;
+}
+.subtitle{
+    margin-left: 400px;
+    margin-top: -18px;
+}
+
