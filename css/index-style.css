@@ -12,7 +12,17 @@ html{
 	margin-bottom: 50%;
 }
 .subtitle{
-    margin-left: 400px;
+    margin-left: -212px;
     margin-top: -18px;
 }
 
+.subtitle-2{
+	margin-top: -18px;
+    margin-left: -33px;
+
+
+}
+.title>h1{
+	margin-left: -600px;
+
+}
