@@ -21,6 +21,13 @@ h1 {
 }
 
 /*home page style*/
+.title{
+
+    font-family: 'Lobster',cursive;
+    font-style: italic;
+
+
+}
 .nav-bar {
 margin: 0;
 padding: 0;
