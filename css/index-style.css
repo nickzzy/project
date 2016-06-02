@@ -28,11 +28,21 @@ h1 {
 
 
 }
+.nav{
+
+    width: 100%;
+}
+
 .nav-bar {
-margin: 0;
-padding: 0;
-float: right;
-margin-top: 10px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    float: right;
+    margin-top: 10px;
+    position: absolute;
+    top: 0px;
+    z-index: 9999;
+    text-align: right;
 
 }
 
@@ -55,25 +65,18 @@ margin-top: 10px;
 
 
 body, h1, ul {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 li {
-  list-style: none;
+    list-style: none;
 }
 .red {
-      color: #F16B6F;
+    color: #F16B6F;
+    text-shadow: 35px -62px 29px #000000;
+    font-size: 311px
     }
-.logo {
-  position: fixed;
-  background-color: #333;
-  color: #eee;
-  left: 0;
-  top: 0;
-  z-index: 1200;
-  padding: 10px;
-  font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
-}
+
 
 .bg-slideshow,.bg-slideshow:after {
     position: fixed;
@@ -85,7 +88,7 @@ li {
 }
 .bg-slideshow:after {
     content: '';
-    background: transparent url('http://watchmaker.haz.wiki/_media/tips:stripes.png') repeat top left;
+    /*background: transparent url('http://watchmaker.haz.wiki/_media/tips:stripes.png') repeat top left;*/
     /*background: transparent url('http://erinsowards.com/articles/2012/07/graphics/bkg_patterns_08.gif') repeat top left;*/
 }
 .bg-slideshow li .image {
@@ -104,7 +107,7 @@ li {
 }
 .bg-slideshow li div {
     z-index: 1000;
-    position: absolute;
+   /* position: absolute;*/
     bottom: 30px;
     left: 0px;
     width: 100%;
@@ -153,11 +156,11 @@ li {
     100% { opacity: 0 }
 }
 @keyframes titleAnimation {
-  0% { opacity: 0; }
-  8% { opacity: 1; }
-  27% { opacity: 1 }
-  45% { opacity: 0 }
-  100% { opacity: 0 }
+    0% { opacity: 0; }
+    8% { opacity: 1; }
+    27% { opacity: 1 }
+    45% { opacity: 0 }
+    100% { opacity: 0 }
 }
 .no-cssanimations .cb-slideshow li .image{
     opacity: 1;
@@ -264,26 +267,4 @@ textarea {
     transition: all 300ms ease;
 }
 
-.submit-btn:hover {
-    transform: translateY(1px);
-    box-shadow: 0 1px 1px 0 rgba(0,0,0,0.10),
-              0 1px 1px 0 rgba(0,0,0,0.09);
-}
 
-@media (max-width: 768px) {
-    .submit-btn {
-        width:100%;
-        float: none;
-        text-align:center;
-    }
-}
-
-input[type=checkbox] + label {
-  color: #ccc;
-  font-style: italic;
-} 
-
-input[type=checkbox]:checked + label {
-  color: #f00;
-  font-style: normal;
-}
