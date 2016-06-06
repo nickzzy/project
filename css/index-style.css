@@ -1,8 +1,37 @@
-/*Default Settings*/
-html{
-	background: url(../img/home-back-ground-0.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
+
+】
+.backImg{
+	width: 100%;
+    height: 890px;
+
+}
+.subtitle{
+    margin-left: 244px;
+    margin-top: -18px;
+    font-family: 'EB Garamond', serif;
+    font-style: italic;
+    font-size: 70px;
+}
+
+.subtitle-2{
+	margin-top: -18px;
+    margin-left:407px;
+    font-family: 'EB Garamond', serif;
+    font-style: italic;
+    font-size:70px;
+
+
+}
+.title-word{
+    margin-left: -500px;
+    padding: 44px;
+}
+.title-word>h1{
+	margin-left: -700px;
+	font-family: 'Lobster',cursive;
+    font-size: 200px;
+    font-style: italic;
+    margin-top: 0;
 
 }
 
@@ -22,10 +51,14 @@ h1 {
 
 /*home page style*/
 .nav-bar {
+width: 100%;    
 margin: 0;
 padding: 0;
 float: right;
 margin-top: 10px;
+position: absolute;
+text-align: right;
+z-index: 9999;  
 
 }
 
@@ -54,8 +87,24 @@ body, h1, ul {
 li {
   list-style: none;
 }
+.list1{
+    margin-top: 25px;
+
+
+}
+.list3{
+
+
+    
+}
+
+
 .red {
-      color: #F16B6F;
+    color: #F16B6F;
+    font-family: 'Playball', cursive;
+    font-style: italic;
+    font-size: 350px;
+    padding: 39px;
     }
 .logo {
   position: fixed;
@@ -97,7 +146,7 @@ li {
 }
 .bg-slideshow li div {
     z-index: 1000;
-    position: absolute;
+/*    position: absolute;*/
     bottom: 30px;
     left: 0px;
     width: 100%;
